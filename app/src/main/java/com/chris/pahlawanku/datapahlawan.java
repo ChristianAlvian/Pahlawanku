@@ -25,13 +25,10 @@ public class datapahlawan {
             model.setNama(varData[0]);
             model.setTentang(varData[1]);
             model.setFoto(varData[2]);
-
             datapahlawan.add(model);
 
         }
 
         return datapahlawan;
-
-
     }
 }
